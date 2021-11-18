@@ -32,3 +32,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.subtitle {
+  font-size: 7.5rem;
+  text-transform: uppercase;
+  grid-column: 1 / -1;
+  text-align: center;
+}

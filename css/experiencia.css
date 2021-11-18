@@ -1,0 +1,28 @@
+.experiencia {
+  max-width: 120rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+}
+
+.experiencia .subtitle {
+  color: #2A0647;
+}
+
+.experiencia-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  grid-column: 1 / -1;
+  max-width: 80ch;
+  text-align: center;
+  justify-self: center;
+  color: #2A0647;
+}
+
+.experiencia-text strong {
+  color: black;
+  font-size: 1.7rem;
+}
+
