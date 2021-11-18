@@ -8,7 +8,7 @@
 }
 
 .experiencia .subtitle {
-  color: #2A0647;
+  color: #2a0647;
 }
 
 .experiencia-text {
@@ -18,7 +18,7 @@
   max-width: 80ch;
   text-align: center;
   justify-self: center;
-  color: #2A0647;
+  color: #2a0647;
 }
 
 .experiencia-text strong {
@@ -26,3 +26,88 @@
   font-size: 1.7rem;
 }
 
+.data-title {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: #ba27fa;
+  align-items: center;
+}
+
+.data-container {
+  display: flex;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #2a0647;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.data-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.data-project a {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: var(--black);
+  display: block;
+  background: linear-gradient(#e99efa, #ba27fa);
+  border-radius: 0.5rem;
+}
+
+.data-button {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: var(--black);
+  background: linear-gradient(#e99efa, #ba27fa);
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .data-title {
+    align-self: center;
+  }
+
+  .data-list {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .data-project a {
+    padding: 0.5rem 0.7rem;
+  }
+
+  .data-button {
+    padding: 0.5rem 0.7rem;
+  }
+
+  .data-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .data-subtitle {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+  }
+
+  .data-title {
+    text-align: center;
+  }
+
+  .experiencia-text {
+    max-width: none;
+  }
+}
