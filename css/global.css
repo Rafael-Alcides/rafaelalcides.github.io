@@ -3,7 +3,7 @@
 :root {
   --black: #222;
   --gray-backgroud: #f9f9ff;
-  --white: #fff;
+  --cl: #fff;
   --gray-p: #777;
   --cor1: #8490ff;
   --cor2: #62bbfc;
@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
   color: var(--black);
   min-height: 100vh;
   background: #f9f9ff;
-  background-repeat: no-repeat;
 }
 
 h1, h2, h3, p {
