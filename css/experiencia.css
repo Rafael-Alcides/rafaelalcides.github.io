@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 6rem;
+  word-wrap:break-word
 }
 
 .experiencia .subtitle {
@@ -15,7 +16,7 @@
   font-size: 1.6rem;
   line-height: 1.5;
   grid-column: 1 / -1;
-  max-width: 80ch;
+  max-width: 70ch;
   text-align: center;
   justify-self: center;
   color: #2a0647;

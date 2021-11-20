@@ -1,11 +1,11 @@
 .formation {
-  background-color: #342D39;
+  background-color: #342d39;
   color: #fff;
 }
 
 .formation-container {
   max-width: 120rem;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 12rem 2rem;
   margin: 0 auto;
   display: grid;
   gap: 6rem;
@@ -22,7 +22,6 @@
 }
 
 .formation-text strong {
-  color: #ba27fa;
   font-size: 1.7rem;
 }
 
@@ -73,8 +72,8 @@
 .linguage h3 {
   background: #f5f5f5;
   padding: 1rem;
-  margin-left: 1rem ;
-  border-radius: .5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 1000px) {
@@ -90,8 +89,9 @@
 
   .formation-info {
     text-align: center;
-  } 
+  }
 
+  
   .linguage-list {
     justify-content: center;
   }
@@ -102,7 +102,7 @@
     flex-direction: column;
   }
 
-  .linguage-list{
+  .linguage-list {
     flex-direction: column;
   }
 
