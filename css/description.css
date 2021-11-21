@@ -1,7 +1,7 @@
 .description {
   max-width: 120rem;
   padding: 4rem 2rem;
-  margin: 0 auto;
+  margin: 10rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10rem;
@@ -9,34 +9,54 @@
 }
 
 .description img {
-  border: 0.5rem solid #BA27FA;
-  border-radius: 0.5rem;
+ 
 }
 
-.description h2 {
-  font-size: 5.5rem;
-  line-height: 1.125;
-  margin-bottom: 3rem;
-  color: #2A0647;
+.description h6 {
+  font-size: 1.4rem;
   position: relative;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
 }
 
-.description h2::before {
-  content: "";
-  display: block;
-  width: 15rem;
-  height: 0.5rem;
-  background: #BA27FA;
-  position: absolute;
-  left: -20px;
-  top: -10px;
+.description .city {
+  margin-top: 2rem;
+  text-align: right;color: var(--gray-p);
+}
+
+.description h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .description p {
-  color: #2A0647;
-  text-align: right;
-  font-size: 1.6rem;
+  color: var(--gray-p);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
+
+.social-profile {
+  display: flex;
+  margin: 15rem 4rem 0rem 4rem;
+  gap: 5rem;
+}
+
+.social a {
+  display: flex;
+  gap: .5rem;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.social a p:hover {
+  color: var(--black);
+}
+
+
+
+
 
 @media (max-width: 1000px) {
   .description h2 {
