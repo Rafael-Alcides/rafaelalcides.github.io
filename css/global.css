@@ -8,6 +8,7 @@
   --cor1: #8490ff;
   --cor2: #62bbfc;
   --footer: #04091e;
+  --sub: #5e5e5e;
 }
 
 html {
@@ -40,8 +41,10 @@ img {
 }
 
 .subtitle {
-  font-size: 7.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
+  color: var(--sub);
   grid-column: 1 / -1;
   text-align: center;
+  letter-spacing: 2rem;
 }

@@ -8,10 +8,6 @@
   align-items: center;
 }
 
-.description img {
- 
-}
-
 .description h6 {
   font-size: 1.4rem;
   position: relative;
@@ -53,10 +49,6 @@
 .social a p:hover {
   color: var(--black);
 }
-
-
-
-
 
 @media (max-width: 1000px) {
   .description h2 {
