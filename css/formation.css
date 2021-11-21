@@ -1,24 +1,29 @@
 .formation {
-  background-color: #342d39;
-  color: #fff;
-}
-
-.formation-container {
   max-width: 120rem;
   padding: 4rem 2rem 12rem 2rem;
   margin: 0 auto;
   display: grid;
-  gap: 6rem;
-  grid-template-columns: 1fr 2fr;
+  gap:10rem 6rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info {
+  background: linear-gradient( to left, #8490ff, #62bbfc);
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  color: var(--cl);
+  align-self: center;
+  justify-self: center;
 }
 
 .formation-text {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  grid-column: 1 / -1;
-  max-width: 80ch;
-  text-align: center;
-  justify-self: center;
+  font-size: 1.4rem;
+  line-height: 2;
+  grid-column: 2;
+  max-width: 50ch;
+  color: var(--gray-p);
+  justify-content: right;
 }
 
 .formation-text strong {
