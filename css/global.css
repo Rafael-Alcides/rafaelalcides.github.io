@@ -21,6 +21,7 @@ body {
   color: var(--black);
   min-height: 100vh;
   background: #f9f9ff;
+  padding-top: 9rem;
 }
 
 h1, h2, h3,h6, p {

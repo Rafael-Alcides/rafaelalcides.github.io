@@ -1,0 +1,17 @@
+.formacao {
+  max-width: 140rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem 6rem;
+}
+
+.subtitle {
+  padding-top: 2rem;
+  text-align: right;
+  word-break: break-all;
+}
+
+
+
