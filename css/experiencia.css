@@ -1,14 +1,15 @@
 .experiencia {
-  max-width: 120rem;
+  max-width: 140rem;
   padding: 10rem 2rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10rem 6rem;
+  gap: 8rem 6rem;
 }
 
 .experiencia .subtitle {
   text-align: right;
+  word-break: break-all;
 }
 
 .experiencia-text {
@@ -35,6 +36,33 @@
   text-decoration: none;
   padding: 1rem 2rem;
   color: var(--cl);
+}
+
+@media (max-width: 1000px) {
+  .subtitle {
+    font-size: 5rem;
+  }
+
+  .buttons-list{
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons-list {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 550px) {
+  .buttons-list {
+    flex-direction: column;
+  }
 }
 
 

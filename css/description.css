@@ -1,11 +1,20 @@
+body {
+  padding-top: 8rem;
+}
+
 .description {
-  max-width: 120rem;
-  padding: 4rem 2rem;
-  margin: 10rem auto 0 auto;
+  max-width: 140rem;
+  padding: 2rem 4rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 10rem;
+  gap: 8rem;
   align-items: center;
+}
+
+.description .cover img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .description h6 {
@@ -35,7 +44,7 @@
 
 .social-profile {
   display: flex;
-  margin: 15rem 4rem 0rem 4rem;
+  margin: 4rem;
   gap: 5rem;
 }
 
@@ -51,34 +60,23 @@
 }
 
 @media (max-width: 1000px) {
-  .description h2 {
+  .description {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }  
+
+  .description h1 {
     font-size: 4rem;
   }
 }
 
 @media (max-width: 800px) {
   .description {
-    grid-template-columns: 1fr 1fr;  
-    gap: 4rem;
+    grid-template-columns: 1fr;
   }
-  .description h2 {
-    font-size: 3rem;
-  }
-}
 
-@media (max-width: 500px) {
-  .description img {
+  .cover img {
     display: none;
   }
-  .description {
-    grid-template-columns: 1fr;
-    margin: 3rem;
-  }
 }
-
-
-  
-
-
-
 
