@@ -46,6 +46,9 @@ body {
   display: flex;
   margin: 4rem;
   gap: 5rem;
+  background: linear-gradient(to left, #8490ff, #62bbfc);
+  width: 25rem;
+  justify-content: center;
 }
 
 .social a {
@@ -55,8 +58,15 @@ body {
   padding: 1rem;
 }
 
-.social a p:hover {
-  color: var(--black);
+.social a p {
+  align-self: center; 
+  margin-bottom: 0px;
+  color: var(--cl);
+  font-size: 1.5rem;
+}
+
+.social-profile:hover {
+  background: linear-gradient(to right, #8490ff, #62bbfc);
 }
 
 @media (max-width: 1000px) {
