@@ -1,0 +1,47 @@
+.contato {
+  max-width: 140rem;
+  padding: 2rem 4rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem 0rem;
+  align-items: center;
+  color: var(--cl);
+}
+
+.contato .subtitle {
+  text-align: right;
+  word-break: break-all;
+}
+
+.content-1 {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contato-description {
+  max-width: 120rem;
+  background: var(--footer);
+  padding: 10rem 2rem;
+}
+
+.contato-title {
+  font-size: 6rem;
+}
+
+.contato-subtitle {
+  font-size: 1.7rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contato-paragraphy {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.contato-input {
+  
+  background: linear-gradient(#8490ff, #62bbfc);
+}
