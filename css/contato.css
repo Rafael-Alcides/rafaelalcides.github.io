@@ -28,6 +28,8 @@
 
 .contato-title {
   font-size: 6rem;
+  margin-bottom: 3rem;
+  color: var(--black);
 }
 
 .contato-subtitle {
@@ -39,9 +41,42 @@
 .contato-paragraphy {
   font-size: 1.4rem;
   text-align: center;
+  color: var(--gray-p);
 }
 
 .contato-input {
-  
   background: linear-gradient(#8490ff, #62bbfc);
+  padding: 2rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-h3 {
+  font-size: 1.5rem;
+  display: none;
+}
+
+.formulario-entrada  {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.formulario-btn {
+  background: var(--footer);
+  color: var(--cl);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  align-self: center;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.formulario-btn:hover {
+  border-radius: 0.3rem;
 }

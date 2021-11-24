@@ -94,15 +94,19 @@
         <div class="contato-description">
           <h6 class="contato-subtitle">Correr atras dos proprios</h6>
           <p class="contato-paragraphy">Siga-me nas minhas redes Sociais, mandem mensagens! Faço trabalho voluntario pra aumentar experiencia!</p>
-      </div>
+        
+        </div>
       <div class="contato-input">
         <h1 class="contato-title">Entrar em Contato!</h1>
-        <form action="./">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="digite seu nome">
-          
+        <form action="./" class="formulario">
+          <label class="label-h3" for="nome" aria-required="true">Nome</label>
+          <input class="formulario-entrada" type="text" id="nome" name="nome" placeholder="digite seu nome" required>
+          <label class="label-h3" for="e-mail">E-mail</label>
+          <input class="formulario-entrada" type="email" id="e-mail" name="E-mail" placeholder="digite seu E-mail" required>
+          <label class="label-h3" for="mensagem">mensagem</label>
+          <textarea class="formulario-entrada" name="mensagem" id="mensagem" rows="5" placeholder="Diga o que voçe esta pensando!" required></textarea>
+          <button class="formulario-btn">Enviar</button>
         </form>
-      </div>
       </div>
     </section>
     <footer class="footer">
