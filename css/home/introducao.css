@@ -1,0 +1,46 @@
+.introducao-bg {
+  background-color: var(--cor-p1);
+  box-shadow: inset -175px 0 var(--cor-0);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 40px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+}
+
+.introducao-conteudo span {
+  margin-bottom: 8px;
+}
+
+.introducao-conteudo h1 {
+  margin-bottom: 8px;
+}
+
+.introducao-conteudo p {
+  margin-bottom: 32px;
+  max-width: 30ch;
+}
+
+.introducao-conteudo h6 {
+  margin-bottom: 32px;
+  text-align: end;
+}
+
+.introducao-conteudo a {
+  display: flex;
+  gap: 8px;
+  background: var(--cor-8);
+  padding: 16px 32px;
+  max-width: max-content;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.introducao-image img {
+  border-radius: 5px 0 0 0 ;
+}
