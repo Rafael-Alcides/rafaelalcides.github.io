@@ -1,12 +1,13 @@
 .introducao-bg {
-  background-color: var(--cor-p1);
-  box-shadow: inset -175px 0 var(--cor-0);
+  background-color: var(--cor-10);
+  box-shadow: inset -175px 0 var(--cor-0), inset 0 30px  var(--cor-11), inset 0 -10px var(--cor-p1)
 }
 
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr ;
   gap: 40px;
+  margin-bottom: 30px;
 }
 
 .introducao-conteudo {

@@ -1,31 +1,26 @@
-.experiencia-bg {
-  background-color: var(--cor-12);
-  display: grid;
-  grid-template-columns: auto 1fr;
-  padding: 10px 0px;
-  gap: 0 40px;
+.formation-bg {
+  box-shadow: inset 0 -220px var(--cor-11);
 }
 
-.experiencia-conteudo {
-  text-align: center;
-}
-
-.experiencia-conteudo h2 {
-  margin:20px 0 8px 0;
-}
-
-.experiencia-conteudo span {
-  display: block;
-}
- 
-.experiencia-conteudo p {
-  padding: 40px;
-}
-
-.experiencia-conteudo a {
-  display: flex;
-  gap: 8px;
-  background-color: var(--cor-8);
-  padding: 16px 32px;
+.formation {
+  background-color: var(--cor-1);
   border-radius: 5px;
+  padding: 30px ;
+  
+}
+
+.formation p {
+  margin-bottom: 50px;
+}
+
+.formation-link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.formation-link a {
+  display: flex;
+  gap: 10px;
+  text-transform: uppercase;
 }

@@ -8,6 +8,7 @@
 /* HOME*/
 @import "./home/introducao.css";
 @import "./home/experiencia.css";
+@import "./home/skill.css";
  
 /* HEADER E FOOTER*/
 @import "./global/header.css";
